@@ -15,8 +15,8 @@ class LinearGradient extends Component {
       <NativeLinearGradient
         // colors={this.props.colors.map((c) => rgb2hex(c).hex)}
         colors={[color0, color1].map((c) => rgb2hex(c).hex)}
-        start={gStart}
-        end={gEnd}
+        startPoint={gStart}
+        endPoint={gEnd}
         style={[styles.linearGradient]}>
         {children}
       </NativeLinearGradient>
